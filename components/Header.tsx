@@ -33,13 +33,13 @@ function Header({}: Props) {
         />
 
         <SocialIcon
-          url="https://www.linkedin.com/in/himanshu-ranjan-7580a0135/"
+          url="https://twitter.com/HIMANSHSINGH8"
           bgColor="transparent"
           fgColor="gray"
         />
 
         <SocialIcon
-          url="https://www.linkedin.com/in/himanshu-ranjan-7580a0135/"
+          url="https://github.com/himsngh"
           bgColor="transparent"
           fgColor="gray"
         />
@@ -61,7 +61,7 @@ function Header({}: Props) {
       }}
       className="flex flex-row items-center text-gray-300 cursor-pointer">
         <SocialIcon
-          url="https://twitter.com/HIMANSHSINGH8"
+          network="email"
           bgColor="transparent"
           fgColor="gray"
           className="cursor-pointer"
