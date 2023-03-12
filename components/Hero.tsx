@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import Link from "next/link";
+import profilePic from "../public/profile-picture.jpg";
 
 type Props = {};
 
@@ -27,10 +28,10 @@ export default function Hero({}: Props) {
 
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/profile-picture.jpg"
+        src={profilePic}
         alt="Picture Of Himansh"
-        width={600}
-        height={600}
+        width="600"
+        height="600"
       />
 
       <div className="z-20">
