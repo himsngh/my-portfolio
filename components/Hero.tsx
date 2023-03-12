@@ -10,10 +10,9 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, I am Himansh",
-      "Guy-who-loves-to-build",
-      "<AndBreak>-applications",
-      "If err != nil { return nil }",
-      "Oops!",
+      "Guy-who-loves-to-build[break]-applications",
+      "Developer-By-Heart",
+      "Definately not a designer.",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -28,7 +27,7 @@ export default function Hero({}: Props) {
 
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/../public/profile-picture.jpg"
+        src="/profile-picture.jpg"
         alt="Picture Of Himansh"
         width={600}
         height={600}
