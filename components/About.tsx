@@ -27,7 +27,7 @@ function About({}: Props) {
         viewport={{ once: true }}
         src="/profile-picture.jpg"
         className="-mb-28 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full object-cover
-            md:rounded-lg md:w-56 md:h-80 xl:w-[400px] xl:h-[500px]"
+            md:rounded-lg md:w-56 md:h-72 xl:w-[300px] xl:h-[400px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
@@ -37,16 +37,17 @@ function About({}: Props) {
           background
         </h4>
 
-        <p className="text-base">
-          I am Himansh. Volumes provide the ability to connect specific
-          filesystem paths of the container back to the host machine. If a
-          directory in the container is mounted, changes in that directory are
-          also seen on the host machine. If we mount that same directory across
-          container restarts, we’d see the same files. When a container runs, it
-          uses the various layers from an image for its filesystem. Each
-          container also gets its own “scratch space” to create/update/remove
-          files. Any changes won’t be seen in another container, even if they
-          are using the same image.
+        <p className="text-base md:text-1xl ">
+          I am Himansh. A software engineer currently working as a Backend
+          Developer at Appointy IT PVT LTD. I&apos;ve been coding for about 3
+          years now mostly involved with backend technologies. I started with
+          Java for solving problems in Leetcode and python for building data
+          science and machine learning applications then I moved to Golang as
+          part of my profession career and since then enjoyed a lot building
+          applications in Go. I have profession experience with building
+          applications using Golang, Postgresql, Docker, GCP, and other modern
+          technologies. I have trying to decode cloud technologies and frontend
+          for some time now.
         </p>
       </div>
     </motion.div>
