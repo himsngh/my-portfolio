@@ -15,7 +15,7 @@ export default function Hero({}: Props) {
       "Definately not a designer.",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 2000,  
   });
 
   return (
@@ -28,7 +28,7 @@ export default function Hero({}: Props) {
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="/profile-picture.jpg"
-        alt="Picture Of Himansh"
+        alt="Himansh Image"
         width={600}
         height={600}
       />
@@ -37,7 +37,7 @@ export default function Hero({}: Props) {
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
         </h2>
-        <h1 className="text-5xl lg:text-6xlfont-semibold px-10">
+        <h1 className="text-4xl lg:text-5xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
