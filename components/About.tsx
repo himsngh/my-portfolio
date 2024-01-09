@@ -45,7 +45,7 @@ function About({}: Props) {
         micro service environment using Golang, PostgreSQL, Docker, and other technologies 
         that allow me to bring ideas to life. I find great joy in collaborating with internal 
         teams and vendors to enhance and implement new features. 
-        <br>
+        </ br>
         Let&apos;s connect and explore how we can create something remarkable together or simply 
         chat about the fascinating world of software development.
         </p>
