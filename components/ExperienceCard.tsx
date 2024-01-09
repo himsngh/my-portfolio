@@ -2,7 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-type Props = {};
+type Props = {
+  title: string;
+  company: string;
+};
 
 export default function ExperienceCard(props: Props) {
   return (
