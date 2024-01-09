@@ -25,7 +25,7 @@ function About({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        src="/profile-picture.jpg"
+        src="/profile.jpg"
         className="-mb-28 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full object-cover
             md:rounded-lg md:w-56 md:h-72 xl:w-[300px] xl:h-[400px]"
       />

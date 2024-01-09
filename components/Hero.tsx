@@ -27,7 +27,7 @@ export default function Hero({}: Props) {
 
       <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/profile-picture.jpg"
+        src="/profile.jpg"
         alt="Himansh Image"
         width={600}
         height={600}
