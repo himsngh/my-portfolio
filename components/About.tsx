@@ -44,8 +44,7 @@ function About({}: Props) {
         implementation, and testing of new features. My toolbox includes working in a 
         micro service environment using Golang, PostgreSQL, Docker, and other technologies 
         that allow me to bring ideas to life. I find great joy in collaborating with internal 
-        teams and vendors to enhance and implement new features. 
-        </ br>
+        teams and vendors to enhance and implement new features.<br>
         Let&apos;s connect and explore how we can create something remarkable together or simply 
         chat about the fascinating world of software development.
         </p>
