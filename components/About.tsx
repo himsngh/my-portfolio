@@ -38,16 +38,16 @@ function About({}: Props) {
         </h4>
 
         <p className="text-base md:text-1xl ">
-          I am Himansh. A software engineer currently working as a Backend
-          Developer at Appointy IT PVT LTD. I&apos;ve been coding for about 3
-          years now mostly involved with backend technologies. I started with
-          Java for solving problems in Leetcode and python for building data
-          science and machine learning applications then I moved to Golang as
-          part of my profession career and since then enjoyed a lot building
-          applications in Go. I have profession experience with building
-          applications using Golang, Postgresql, Docker, GCP, and other modern
-          technologies. I have trying to decode cloud technologies and frontend
-          for some time now.
+        I am a passionate software developer with a love for crafting innovative solutions. 
+        Currently working as a MTS 2 at VMware. In my past experiences, 
+        I have been involved in various phases including design, planning, 
+        implementation, and testing of new features. My toolbox includes working in a 
+        micro service environment using Golang, PostgreSQL, Docker, and other technologies 
+        that allow me to bring ideas to life. I find great joy in collaborating with internal 
+        teams and vendors to enhance and implement new features. 
+
+        Let's connect and explore how we can create something remarkable together or simply 
+        chat about the fascinating world of software development.
         </p>
       </div>
     </motion.div>
