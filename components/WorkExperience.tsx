@@ -22,12 +22,21 @@ function WorkExperience({}: Props) {
         "
       >
         <ExperienceCard 
+        company="Appointy IT PVT LTD"
+        title="Software Developer"
+        />
+        <ExperienceCard 
         company="VMware"
         title="Member of Technical Staff"
         />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <ExperienceCard 
+        company="Testing"
+        title="Test"
+        />
+        <ExperienceCard 
+        company="VMware"
+        title="Member of Technical Staff"
+        />
       </div>
     </motion.div>
   );
