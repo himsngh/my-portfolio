@@ -21,7 +21,10 @@ function WorkExperience({}: Props) {
         className="w-full mt-10 md:mt-24 xl:my-60 flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
         "
       >
-        <ExperienceCard />
+        <ExperienceCard 
+        company="VMware"
+        title="Member of Technical Staff"
+        />
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
