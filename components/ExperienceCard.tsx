@@ -28,7 +28,7 @@ export default function ExperienceCard({}: Props) {
         {/* <h4 className="text-4xl font-light">Software Developer 1</h4> */}
         <h4 className="text-4xl font-light">{{props.title}}</h4>
         {/* <p className="font-bold text-2xl mt-1">Appointy IT PVT LTD</p> */}
-        <p className="font-bold text-2xl mt-1">{props.company}</p>
+        <p className="font-bold text-2xl mt-1">{{props.company}}</p>
         <div className="flex space-x-2 my-2">
           <Image width={10} height={10} src="/favicon.ico" alt="Next" />
           <Image width={10} height={10} src="/docker.png" alt="Docker" />
