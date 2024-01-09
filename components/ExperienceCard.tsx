@@ -4,7 +4,7 @@ import Image from "next/image";
 
 type Props = {};
 
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard(props: Props) {
   return (
     <article 
     className="flex flex-col rounded-lg items-center space-y-9 flex-shrink-0
