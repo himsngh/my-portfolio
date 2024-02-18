@@ -22,10 +22,10 @@ function About({}: Props) {
 
       <motion.img
         initial={{ x: -200, opacity: 0 }}
-        transition={{ duration: 1.2 }}
+        transition={{ duration: 1.5 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        src="/profile.jpg"
+        src="/profile-picture.jpg"
         className="-mb-28 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full object-cover
             md:rounded-lg md:w-56 md:h-72 xl:w-[300px] xl:h-[400px]"
       />

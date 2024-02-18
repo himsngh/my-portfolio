@@ -35,7 +35,7 @@ export default function BackgroundCircles({}: Props) {
         className="absolute border border-[#F7AB0A] rounded-full opacity-20 
         h-[650px] w-[650px] mt-52 animate-pulse"
       />
-      <div className="absolute rounded-full border border-[#333333] h-[800px] w-[800px] mt-52 " />
+      <div className="absolute rounded-full border border-[#333333] h-[800px] w-[800px] mt-52" />
     </motion.div>
   );
 }

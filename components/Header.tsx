@@ -21,7 +21,7 @@ function Header({}: Props) {
           scale: 1,
         }}
         transition={{
-          duration: 1.25,
+          duration: 1.5,
         }}
       className="flex flex-row items-center"
       >
@@ -57,7 +57,7 @@ function Header({}: Props) {
           scale: 1,
       }}
       transition={{
-        duration: 1.25,
+        duration: 1.5,
       }}
       className="flex flex-row items-center text-gray-300 cursor-pointer">
         <SocialIcon

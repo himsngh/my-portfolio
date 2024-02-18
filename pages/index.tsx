@@ -14,9 +14,10 @@ export default function Home() {
         <title>Himansh&apos;s Portfolio</title>
       </Head>
 
+      {/* Header Section */}
       <Header />
 
-      <section id="hero" className="snap-start">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
 
