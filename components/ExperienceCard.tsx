@@ -65,9 +65,9 @@ export default function ExperienceCard({ company, title, summary }: Props) {
         </p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          {summary?.map((value) => {
+          {summary?.map((value, idx) => {
             return (
-            <div>
+            <div key={idx} >
               <li> {value} </li>;
             </div>
             )
