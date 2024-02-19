@@ -66,7 +66,11 @@ export default function ExperienceCard({ company, title, summary }: Props) {
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
           {summary?.map((value) => {
-            return <li> {value} </li>;
+            return (
+            <div>
+              <li> {value} </li>;
+            </div>
+            )
           })}
         </ul>
       </div>
