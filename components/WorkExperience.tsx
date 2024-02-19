@@ -19,6 +19,7 @@ function WorkExperience({}: Props) {
 
       <div
         className="w-full flex space-x-5 overflow-x-scroll p-8 snap-x snap-mandatory
+        scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80
         "
       >
         <ExperienceCard 
@@ -37,7 +38,6 @@ function WorkExperience({}: Props) {
             "Researched and tested a horizontal scaling solution for the database to reduce application latency and increase performance.",
             "Diagnosed a memory leak issue and helped the team in finding and executing a solution.",
             "Developed multiple external integrations into our system like Calendar (Google, Outlook), Zoom, BigCommerce, FCM, Google Sheets, ServiceNow etc.",
-            "Helped in developing and delivering multiple products / features to our enterprise clients within the time frame.",
             "Designed a micro service to validate and verify new user's signup process to reduce the spam accounts creation and a monitoring system for emails sent to reduce bounce rates."
           ]}
           />

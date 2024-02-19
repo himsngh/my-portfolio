@@ -16,22 +16,22 @@ function Projects({}: Props) {
 
       <div
         className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory
-            z-20"
+            z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
       >
         {projects.map((project, i) => {
           return (
             <div
-                key={i}
+              key={i}
               className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center
                             justify-center p-20 md:p-44 h-screen"
             >
-              <img 
-              className="md:w-48 md:h-48"
+              <img
+                className="md:w-48 md:h-48"
                 src="profile.jpg"
-                // width={10} 
-                // height={10} 
-             />
-            
+                // width={10}
+                // height={10}
+              />
+
               <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-2xl font-semibold text-center">
                   <span className="underline decoration-[#F7AB0A]/50">
@@ -41,11 +41,12 @@ function Projects({}: Props) {
                 </h4>
 
                 <p className="text-lg text-center md:text-left">
-                    Testing testing Testing testingTesting testing Testing testing
-                    Testing testing Testing testing Testing testing Testing testing 
-                    Testing testing Testing testing Testing testing Testing testing 
-                    Testing testing Testing testing Testing testing Testing testing
-                    Testing testing Testing testing Testing testing Testing testing
+                  Testing testing Testing testingTesting testing Testing testing
+                  Testing testing Testing testing Testing testing Testing
+                  testing Testing testing Testing testing Testing testing
+                  Testing testing Testing testing Testing testing Testing
+                  testing Testing testing Testing testing Testing testing
+                  Testing testing Testing testing
                 </p>
               </div>
             </div>
