@@ -2,13 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-type Props = {};
+type Props = {
+  company?: string;
+  title?: string;
+  summary?: string[];
+};
 
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard({company, title, summary}: Props) {
   return (
     <article 
-    className="flex flex-col rounded-lg items-center space-y-9 flex-shrink-0
-        w-[400px] md:w-[500px] xl:w-[800px] snap-center bg-[#292929] p-10
+    className="flex flex-col rounded-lg items-center space-y-3 flex-shrink-0
+        w-[500px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-10
         hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     
     >
@@ -25,12 +29,23 @@ export default function ExperienceCard({}: Props) {
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">Software Developer 1</h4>
-        <p className="font-bold text-2xl mt-1">Appointy IT PVT LTD</p>
+        <h4 className="text-3xl font-light">{company}</h4>
+        <p className="font-bold text-2xl mt-1">{title}</p>
         <div className="flex space-x-2 my-2">
-          <Image width={10} height={10} src="/favicon.ico" alt="Next" />
-          <Image width={10} height={10} src="/docker.png" alt="Docker" />
+          <Image 
+            className="rounded-full"
+            width={10} 
+            height={10} 
+            src="/favicon.ico" 
+            alt="Next" />
+          <Image 
+            className="rounded-full"
+            width={10} 
+            height={10} 
+            src="/docker.png" 
+            alt="Docker" />
           <Image
+            className="rounded-full"
             width={10}
             height={10}
             src="/postgresql.png"
@@ -49,11 +64,13 @@ export default function ExperienceCard({}: Props) {
         </p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          {
+            summary?.map((value) => {
+              return (
+                <li> {value} </li>
+              )
+            })
+          }
         </ul>
       </div>
     </article>
